@@ -125,7 +125,7 @@ let e2 = "apple";
 let e3 = e1 / e2;
 console.log(e3); //NaN
 
-// **isNaN() to find out vcalue is a number 
+// **isNaN() to find out value is a number 
 let f1 = 10;
 console.log(isNaN(f1)); //false mane eta akta number
 
@@ -157,19 +157,87 @@ example :
 octal base 8
 01234567
 
-hexadecimal base 16
+hexadecimal base 16 (hexa mane 6 decimal mane 10 total 16)
 0123456789ABCDEF
 A mane 10
-B mane11
+B mane 11
+c mane 12
+D mane 13
+E mane 14
+F mane 15
 
+egolo holo number system er basic concept
 */
+
+// !convertion
 
 /* 
 decimal to binary
 348 
+human brain doren chole decimal system a mane 348 k kibabe computer er mane binary te convert korbo
+amra jani computer er binary base holo 2 .mane 0 and 1 
+
+decimal e dos ujoo thake
+
+*/
+// **348 k kibabe binary ba computer er system a covert korbo
+ /* akta algoritham ba niyom follow korbo .STEP BY STEP sucessesive divison follow korbo .successive divison holo
+ por por bag kore jaw
+
+ 348 / 2 = 174  (reminder = 0 )
+ 124 / 2 = 87  (reminder = 0 )
+ 87 / 2 = 43  (reminder = 1 )
+ 43 / 2 = 21  (reminder = 1 )
+ 21 / 2 = 10  (reminder = 1 )
+ 10 / 2 = 5  (reminder = 0 )
+ 5 / 2 = 2  (reminder = 1 )
+ 2 / 2 = 1  (reminder = 0 )
+ 1 / 2 = 1  (reminder = 1 )
+
+001110101 upor theke niche na 
+101011100 nich theke upore holo binary 
+ 
+ 348 er binary holo 101011100
+ ei process ta k bole successsive division
+ */
+
+//  **Decimal to octal
+/* octal er base holo 8 .ei bar potibar 8 diye bag korbo 
+
+348 / 8 =43.5 (reminder = 4)
+43 / 8 =5.375 (reminder = 3)
+5 / 8 =0.625 (reminder = 5)
+
+nich teke upre 534 holo 348 er octal
+348 er octal holo 534
+
 
 */
 
+//**decimal to hexadecimal */
+/*
+
+348 / 16 =21.75 (reminder 12)
+21 / 16 =1.3125 (reminder 5)
+1 / 16 =0 (reminder 1)
+
+nich theke upore 1512 
+348 er hexadicimal holo 1512
+hexa dicimal e 12 nai 0 1 2 3 4 5 6 7 8 9 A B C D E F 
+
+348 ER HEXADECIMAL HOLO 15C
+
+
+*/
+
+// !! JavaScript Numbers as Objects
+
+
+let num = 123;
+console.log(typeof num); //eta number
+
+let obj = new Number(123);
+console.log(typeof obj); //eta object return kore 
 
  
 
