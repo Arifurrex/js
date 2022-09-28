@@ -10,26 +10,12 @@
 ## Var 🔔 
   
   ```
-.cards__grid {
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 0.5fr 1fr 0.5fr 1fr;
-    grid-template-areas:
-      'card--one'
-      'card--two'
-      'card--three'
-      'card--four'
-      'card--five';
-  }
-```
-//!! javascript variable
-/* 3 ta upaye javascript variable declare kora jai 
-1.var 2.let 3.const */
-
-// **variable declare 
 // x , y , z declare with var keyword 
 var x; // x declare with var keyword
 var y; //y declare with var keyword
 var z; //z declare with var keyword
+
+```
 Thanks for checking out this front-end coding challenge.
 ## I remember CSS Grid according to four groups of properties:
 
