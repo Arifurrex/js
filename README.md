@@ -10,9 +10,9 @@
 ## Var 🔔 
 
 three way javascript variable can be declare 
-1.var 
-2.let 
-3.const 
+1. var 
+2. let 
+3. const 
 
 #javascript variable
   ```
