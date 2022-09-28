@@ -23,7 +23,7 @@ var y;  //y declare with var keyword
 var z;  //z declare with var keyword
 
 ```
-Thanks for checking out this front-end coding challenge.
+Thanks for checking out alinessa it solution javascript coding challenge.
 ## I remember CSS Grid according to four groups of properties:
 
 1. The explicit grid
