@@ -8,7 +8,13 @@
 
 **To do this challenge, you need a basic understanding of HTML and CSS.**
 ## Var 🔔 
-  
+
+three way javascript variable can be declare 
+1.var 
+2.let 
+3.const 
+
+#javascript variable
   ```
 // x , y , z declare with var keyword 
 var x; // x declare with var keyword
