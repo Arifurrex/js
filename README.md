@@ -16,10 +16,11 @@ three way javascript variable can be declare
 
 #javascript variable
   ```
-// x , y , z declare with var keyword 
-var x; // x declare with var keyword
-var y; //y declare with var keyword
-var z; //z declare with var keyword
+ x , y , z declare with var keyword 
+
+var x;  // x declare with var keyword
+var y;  //y declare with var keyword
+var z;  //z declare with var keyword
 
 ```
 Thanks for checking out this front-end coding challenge.
